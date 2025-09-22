@@ -1,12 +1,12 @@
-# AES-OFB Implementation for Trusted Computing Assignment
+# AES-OFB Implementation
 
 ## Overview
 This repository hosts the implementation of the Advanced Encryption Standard (AES) in Output Feedback (OFB) mode, developed as part of a Trusted Computing and Security Models assignment (Roll No. 23). The project includes Python scripts for encrypting and decrypting data, measuring performance on a 1MB file, and supporting materials for a security analysis report. The code adheres to the assignment requirements, utilizing the `pycryptodome` library for AES operations.
 
 ## Files
-- `aes_ofb.py`: Script for Task 1, implementing AES-OFB encryption and decryption with plaintext input and key support (hex or base64).
-- `aes_ofb_performance.py`: Script for Task 3, measuring encryption/decryption times and ciphertext size for a 1MB file.
-- `test_1mb.txt`: A 1MB text file used for performance testing.
+- `aes_ofb.py`: implements AES-OFB encryption and decryption with plaintext input and key support (hex or base64).
+- `aes_ofb_performance.py`: measures encryption/decryption times and ciphertext size for a 1MB file.
+- `test_1mb.txt`: A text file used for performance testing.
 
 ## Prerequisites
 - Python 3.6 or higher.
